@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonDeactivate1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aktifkan Relay 1"
+        android:backgroundTint="@color/green"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonActivate1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nonaktif Relay 1"
+        android:backgroundTint="@color/red"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonDeactivate2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aktifkan Relay 2"
+        android:backgroundTint="@color/blue"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonActivate2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nonaktifkan Relay 2"
+        android:backgroundTint="@color/red"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonNonactivatesemua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aktifkan Semua Relay"
+        android:backgroundTint="@color/blue"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonActivatesemua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nonaktifkan Semua Relay"
+        android:backgroundTint="@color/red"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Status: -"
+        android:textSize="18sp"/>
+</LinearLayout>
